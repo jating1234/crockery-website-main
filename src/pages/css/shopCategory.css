@@ -1,0 +1,24 @@
+.shop-category {
+    width: 100%;
+}
+
+.banner img {
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.collections-data {
+    gap: 1rem 0;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2rem 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.more-btn{
+    margin-bottom: 2rem;
+    text-align: center;
+    cursor: pointer;
+}

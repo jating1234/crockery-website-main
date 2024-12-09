@@ -1,0 +1,70 @@
+/*  section one === */
+
+.h-section1 {
+    padding: 3rem;
+    width: 100%;
+    transition: 0.3s all;
+    position: relative;
+  }
+ 
+  .b-collection {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding-right: 20%;
+    display: flex;
+    position: relative;
+    text-align: center;
+    overflow-x: hidden;
+    transition: all 0.2s linear;
+    transition: 0.3s all;
+  }
+ 
+  .img-sec {
+    padding-right: 0.5rem;
+    transition: 0.3s all;
+    text-align: center;
+    transition: all 7ms linear;
+  }
+
+  .img-sec:hover {
+    color: rgb(197 146 16 / 91%);
+    transition: 0.3s all;
+  }
+ 
+  .img-sec img {
+    border-radius: 50%;
+    width: 10rem;
+    transition: 0.5s all;
+ 
+  }
+ 
+  .btn {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    width: 90%;
+  }
+ 
+  .btn .btnPrev {
+    padding: 5px 14px;
+    border-radius: 5px;
+    position: absolute;
+    left:-27px;
+    font-size: 1rem;
+    background: rgb(197 146 16 / 91%);
+  }
+ 
+  .btn .btnNext {
+    position: absolute;
+    right: 12px;
+    padding: 5px 14px;
+    font-size: 1rem;
+    background: rgba(197, 146, 16, 0.925);
+    border-radius: 7px;
+  }
+  .btn .btnNext:hover,.btn .btnPrev:hover{
+    background: rgba(197, 146, 16, 0.586);
+    transition: 0.2s all;
+    border-radius: 10px;
+  } 

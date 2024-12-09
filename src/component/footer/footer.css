@@ -1,0 +1,26 @@
+.footer{
+  text-align: center;
+
+}
+.img-footer{
+    padding-top: 1.5rem;
+}
+.menu ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.logo-icons{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    border-radius: 10px;
+    padding: 9px;
+}
+
+.bottom-footer{
+    background: rgba(197, 146, 16, 0.735);
+    padding: 1rem;
+    font-weight: 700;
+}

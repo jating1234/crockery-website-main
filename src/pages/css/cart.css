@@ -1,0 +1,23 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.cart_head {
+    margin-bottom: 1rem;
+}
+
+.cart_items {
+    display: flex;
+    margin-right: 10px;
+    margin: 10px;
+    width: 80%;
+    background: rgba(225, 202, 48, 0.313);
+    border: 2px solid rgba(225, 202, 48, 0.313);
+}
+
+.cart_Name {
+    font-size: 1rem;
+}

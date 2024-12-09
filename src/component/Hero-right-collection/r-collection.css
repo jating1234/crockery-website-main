@@ -1,0 +1,59 @@
+.top-collection {
+    width: 100%;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-select {
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px 3px;
+}
+
+.right-select select {
+    width: 200px;
+    border: none;
+    background: transparent;
+    outline: 0;
+    font-size: 0.9rem;
+
+}
+
+/* collection === */
+.card-box {
+    width: 200px;
+    background: rgb(197 146 16 / 91%);
+}
+
+.card-box .card-img {
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.card-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-box .card-img img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
+.card-box .card-details {
+    padding: 0.6rem;
+    font-size: 0.7rem;
+}
+
+.card-box .card-details p {
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding-bottom: 0.6rem;
+}
+
+.card-box .card-details .price {
+    display: flex;
+    justify-content: space-between;
+}
